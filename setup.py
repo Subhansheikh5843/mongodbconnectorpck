@@ -7,9 +7,9 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 __version__ = "0.0.4"
 REPO_NAME = "mongodbconnectorpkg"
-PKG_NAME= "databaseautomation"
-AUTHOR_USER_NAME = "sunnysavita10"
-AUTHOR_EMAIL = "sunny.savita@ineuron.ai"
+PKG_NAME= "mongo-Connect"
+AUTHOR_USER_NAME = "Subhansheikh5843"
+AUTHOR_EMAIL = "subhansheikh5843@gmail.com"
 
 setup(
     name=PKG_NAME,
@@ -27,4 +27,5 @@ setup(
     packages=find_packages(where="src"),
     )
 
+# .)If i want to write some extra configration of this setup.py fiole then we will giveit in setup.cfg.
 
