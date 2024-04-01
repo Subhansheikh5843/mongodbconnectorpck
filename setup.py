@@ -25,6 +25,7 @@ setup(
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
+    install_requirs=["pymongo","pymongo[srv]","dnspython","pandas","numpy","ensure","pytest"]
     )
 
 # .)If i want to write some extra configration of this setup.py fiole then we will giveit in setup.cfg.
